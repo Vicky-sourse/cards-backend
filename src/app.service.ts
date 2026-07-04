@@ -11,7 +11,7 @@ export interface CardItem {
 
 @Injectable()
 export class AppService {
-  private readonly dataPath = path.join(process.cwd(), 'data', 'cards.json');
+  private readonly dataPath = path.join(process.cwd(), 'src', 'data', 'cards.json');
 
   async getRandomCard(): Promise<CardItem> {
     try {

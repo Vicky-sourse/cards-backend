@@ -5,7 +5,7 @@
       "src": "src/main.ts",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["data/cards.json"]
+        "includeFiles": ["src/data/cards.json"]
       }
     }
   ],
