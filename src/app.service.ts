@@ -1,4 +1,4 @@
-import { Injectable, InternalServerErrorException, OnModuleInit } from '@nestjs/common';
+import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { promises as fs } from 'fs';
 import * as path from 'path';
 
@@ -13,7 +13,7 @@ export interface CardItem {
 export class AppService {
   private cardCache: CardItem[] = [];
 
-  private readonly dataPath = path.join(process.cwd(), 'cards.json');
+  private readonly dataPath = path.join(process.cwd(), 'data', 'cards.json');
 
   async getRandomCard(): Promise<CardItem> {
     try {
