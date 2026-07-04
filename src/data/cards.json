@@ -1,4 +1,6 @@
 [
-  { "id": 1, "image": "https://your-storage-url.com/card1.jpg", "title": "title" },
-  { "id": 2, "image": "https://your-storage-url.com/card2.jpg", "title": "title" }
+  { "id": 1, "url": "https://drb7uvhh9xxrzvdw.public.blob.vercel-storage.com/metaphorical-card-flower.jpg", "title": "Metaphorical card flower" },
+  { "id": 2, "url": "https://drb7uvhh9xxrzvdw.public.blob.vercel-storage.com/metaphorical-card-forest.jpg", "title": "Metaphorical card forest" },
+  { "id": 2, "url": "https://drb7uvhh9xxrzvdw.public.blob.vercel-storage.com/metaphorical-card-lighthouse.jpg", "title": "Metaphorical card lighthouse" },
+  { "id": 2, "url": "https://drb7uvhh9xxrzvdw.public.blob.vercel-storage.com/metaphorical-card-woman.jpg", "title": "Metaphorical card woman" }
 ]
